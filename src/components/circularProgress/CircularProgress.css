@@ -1,0 +1,62 @@
+.circular-progress-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.progress-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-ring {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.progress-text {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.date {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  line-height: 22px;
+  filter: drop-shadow(0px 0px 6px rgba(252, 116, 0, 1));
+}
+
+.percentage {
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  line-height: 30px;
+  filter: drop-shadow(0px 0px 6px rgba(252, 165, 0, 1));
+}
