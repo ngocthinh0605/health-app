@@ -37,9 +37,13 @@ A web application for Health App.
 ## Getting Started
 
 1. Clone the repository
+   - Clone with HTTPS
    ```bash
-   Https: git clone https://github.com/ngocthinh0605/health-app.git
-   SSH: git clone git@github.com:ngocthinh0605/health-app.git
+   git clone https://github.com/ngocthinh0605/health-app.git
+   ```
+   - Clone with SSH
+   ```bash
+   git clone git@github.com:ngocthinh0605/health-app.git
    ```
 2. Install dependencies
    ```bash
